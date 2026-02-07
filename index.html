@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Mod Calculators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⛏️ Minecraft Mod Calculators</h1>
+            <p class="subtitle">Professional calculators for complex Minecraft mods</p>
+        </header>
+
+        <main>
+            <!-- Mekanism -->
+            <section class="mod-section">
+                <h2>🔥 Mekanism</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="mekanism-fission">
+                        <div class="calc-icon">⚛️</div>
+                        <h3>Fission Reactor Planner</h3>
+                        <p>Calculate fuel burn rate, coolant requirements, and heat output</p>
+                    </div>
+                    <div class="calc-card" data-calculator="mekanism-fusion">
+                        <div class="calc-icon">⚡</div>
+                        <h3>Fusion Reactor Planner</h3>
+                        <p>Calculate injection rate, fuel consumption, and laser power</p>
+                    </div>
+                    <div class="calc-card" data-calculator="mekanism-processing">
+                        <div class="calc-icon">🔄</div>
+                        <h3>Ore Processing Ratios</h3>
+                        <p>Calculate ore multiplication and machine ratios</p>
+                    </div>
+                    <div class="calc-card" data-calculator="mekanism-chemical">
+                        <div class="calc-icon">🧪</div>
+                        <h3>Chemical Recipes</h3>
+                        <p>Calculate chemical processing chains and gas consumption</p>
+                    </div>
+                    <div class="calc-card" data-calculator="mekanism-power">
+                        <div class="calc-icon">🌬️</div>
+                        <h3>Power Generation</h3>
+                        <p>Calculate wind/solar generators needed for your setup</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Create Mod -->
+            <section class="mod-section">
+                <h2>⚙️ Create</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="create-stress">
+                        <div class="calc-icon">💪</div>
+                        <h3>Stress & Speed Calculator</h3>
+                        <p>Calculate stress units, gear ratios, and water wheels</p>
+                    </div>
+                    <div class="calc-card" data-calculator="create-throughput">
+                        <div class="calc-icon">📦</div>
+                        <h3>Factory Throughput Planner</h3>
+                        <p>Calculate belt speed, items per second, and machine counts</p>
+                    </div>
+                    <div class="calc-card" data-calculator="create-assembly">
+                        <div class="calc-icon">🔧</div>
+                        <h3>Sequenced Assembly Planner</h3>
+                        <p>Calculate assembly success rates and material costs</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Thermal Series -->
+            <section class="mod-section">
+                <h2>🔋 Thermal Series</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="thermal-dynamo">
+                        <div class="calc-icon">⚡</div>
+                        <h3>Dynamo Output Planner</h3>
+                        <p>Calculate RF/t output and fuel efficiency</p>
+                    </div>
+                    <div class="calc-card" data-calculator="thermal-processing">
+                        <div class="calc-icon">🏭</div>
+                        <h3>Fluid & Item Processing</h3>
+                        <p>Calculate machine ratios and processing chains</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Applied Energistics 2 -->
+            <section class="mod-section">
+                <h2>💾 Applied Energistics 2</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="ae2-storage">
+                        <div class="calc-icon">📦</div>
+                        <h3>Storage Planner</h3>
+                        <p>Calculate storage cells and material costs</p>
+                    </div>
+                    <div class="calc-card" data-calculator="ae2-channel">
+                        <div class="calc-icon">🔌</div>
+                        <h3>Channel Planner</h3>
+                        <p>Plan cable layouts and P2P tunnels</p>
+                    </div>
+                    <div class="calc-card" data-calculator="ae2-crafting">
+                        <div class="calc-icon">⚙️</div>
+                        <h3>Crafting Co-Processor Planner</h3>
+                        <p>Calculate parallel crafting and time estimation</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Botania -->
+            <section class="mod-section">
+                <h2>🌱 Botania</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="botania-mana">
+                        <div class="calc-icon">🌼</div>
+                        <h3>Mana Generation Planner</h3>
+                        <p>Calculate mana per tick and pool fill times</p>
+                    </div>
+                    <div class="calc-card" data-calculator="botania-spreader">
+                        <div class="calc-icon">🔮</div>
+                        <h3>Mana Spreader Calculator</h3>
+                        <p>Calculate spreader throughput and burst mechanics</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Industrial Foregoing -->
+            <section class="mod-section">
+                <h2>🏭 Industrial Foregoing</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="if-mob">
+                        <div class="calc-icon">🐄</div>
+                        <h3>Mob Farm Planner</h3>
+                        <p>Calculate essence production and power costs</p>
+                    </div>
+                    <div class="calc-card" data-calculator="if-crop">
+                        <div class="calc-icon">🌾</div>
+                        <h3>Crop Farm Planner</h3>
+                        <p>Calculate harvester throughput and fertilizer rates</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Modpack-Wide -->
+            <section class="mod-section">
+                <h2>🌐 Modpack-Wide Tools</h2>
+                <div class="calculator-grid">
+                    <div class="calc-card" data-calculator="modpack-power">
+                        <div class="calc-icon">🔌</div>
+                        <h3>Power Grid Planner</h3>
+                        <p>Calculate total RF/t and generator requirements</p>
+                    </div>
+                    <div class="calc-card" data-calculator="modpack-resource">
+                        <div class="calc-icon">💎</div>
+                        <h3>Resource Cost Calculator</h3>
+                        <p>Generate shopping lists for complex builds</p>
+                    </div>
+                    <div class="calc-card" data-calculator="modpack-multiblock">
+                        <div class="calc-icon">🏗️</div>
+                        <h3>Multiblock Planner</h3>
+                        <p>Material lists for multiblock structures</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ for the Minecraft modding community</p>
+        </footer>
+    </div>
+
+    <!-- Modal Container -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
